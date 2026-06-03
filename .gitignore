@@ -8,7 +8,7 @@ data/
 *.h5
 
 # ── Script outputs ────────────────────────────────────────────────────────────
-outputs/
+# outputs/
 
 # Leftover temp files from rasterio masking
 _tmp_mask.tif
@@ -35,7 +35,7 @@ pip-log.txt
 *.env
 secrets.json
 
-# ── Claude Code ───────────────────────────────────────────────────────────────
+# ── Agents ───────────────────────────────────────────────────────────────
 .claude/
 .agents/
 .codex/

@@ -7,6 +7,18 @@ Built for Norway and Pakistan, but easily extended to any country.
 
 ---
 
+## Preview
+
+![Norway bivariate climate map](outputs/nor_professional.png)
+
+Generate the preview image with:
+
+```bash
+python main.py
+```
+
+---
+
 ## What it produces
 
 Three images are generated per run:
