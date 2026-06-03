@@ -229,6 +229,6 @@ make_3d_map(dem_p2, rgba_pro, valid_pro, bounds,
 
 print("\n" + "=" * 62)
 print("Done!  Output files:")
-print(f"  {out_pro}                    <- Professional map")
+print(f"  {out_pro}                 <- Professional map")
 print(f"  {out_pub}                    <- Public map")
-
+# print(f"  {out_3d}                      <- 3D terrain view")

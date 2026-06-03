@@ -174,7 +174,7 @@ def _draw_legend(fig, palette: dict, n_classes: int, fig_w: float, fig_h: float)
     axins.annotate("", xy=(1.05, -0.10), xytext=(0.00, -0.10), **akw)
     axins.annotate("", xy=(-0.10, 1.05), xytext=(-0.10, 0.00), **akw)
 
-    axins.text(0.5, -0.20, "Temperature",
+    axins.text(0.5, -0.22, "Temperature",
                ha="center", transform=axins.transAxes,
                fontsize=11.0, color="#333333", fontweight="semibold")
     axins.text(-0.20, 0.5, "Precipitation",
